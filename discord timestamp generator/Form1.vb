@@ -54,5 +54,6 @@ Public Class Form1
     End Sub
     Private Sub createTimestamp()
         TextBox1.Text = "<t:" & unixTimestamp & ":" & format & ">"
+        My.Computer.Clipboard.SetText("<t:" & unixTimestamp & ":" & format & ">")
     End Sub
 End Class
