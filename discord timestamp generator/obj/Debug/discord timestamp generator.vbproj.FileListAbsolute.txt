@@ -1,0 +1,13 @@
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\bin\Debug\discord timestamp generator.exe.config
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\bin\Debug\discord timestamp generator.exe
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\bin\Debug\discord timestamp generator.pdb
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\bin\Debug\discord timestamp generator.xml
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.vbproj.AssemblyReference.cache
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.vbproj.SuggestedBindingRedirects.cache
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord_timestamp_generator.Form1.resources
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord_timestamp_generator.Resources.resources
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.vbproj.GenerateResource.cache
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.vbproj.CoreCompileInputs.cache
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.exe
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.xml
+C:\Users\terra\source\repos\discord timestamp generator\discord timestamp generator\obj\Debug\discord timestamp generator.pdb
