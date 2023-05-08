@@ -25,14 +25,14 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.relativeBtn = New System.Windows.Forms.RadioButton()
-        Me.shorttimeBtn = New System.Windows.Forms.RadioButton()
-        Me.fulltimeBtn = New System.Windows.Forms.RadioButton()
-        Me.shortdateBtn = New System.Windows.Forms.RadioButton()
-        Me.fulldateBtn = New System.Windows.Forms.RadioButton()
-        Me.dateandtimeBtn = New System.Windows.Forms.RadioButton()
-        Me.daydateandtimeBtn = New System.Windows.Forms.RadioButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.daydateandtimeBtn = New System.Windows.Forms.RadioButton()
+        Me.dateandtimeBtn = New System.Windows.Forms.RadioButton()
+        Me.fulldateBtn = New System.Windows.Forms.RadioButton()
+        Me.relativeBtn = New System.Windows.Forms.RadioButton()
+        Me.shortdateBtn = New System.Windows.Forms.RadioButton()
+        Me.fulltimeBtn = New System.Windows.Forms.RadioButton()
+        Me.shorttimeBtn = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,6 +61,43 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(198, 93)
         Me.Panel1.TabIndex = 1
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(74, 69)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
+        Me.TextBox1.TabIndex = 7
+        '
+        'daydateandtimeBtn
+        '
+        Me.daydateandtimeBtn.AutoSize = True
+        Me.daydateandtimeBtn.Location = New System.Drawing.Point(81, 26)
+        Me.daydateandtimeBtn.Name = "daydateandtimeBtn"
+        Me.daydateandtimeBtn.Size = New System.Drawing.Size(114, 17)
+        Me.daydateandtimeBtn.TabIndex = 6
+        Me.daydateandtimeBtn.Text = "Day, date and time"
+        Me.daydateandtimeBtn.UseVisualStyleBackColor = True
+        '
+        'dateandtimeBtn
+        '
+        Me.dateandtimeBtn.AutoSize = True
+        Me.dateandtimeBtn.Location = New System.Drawing.Point(81, 3)
+        Me.dateandtimeBtn.Name = "dateandtimeBtn"
+        Me.dateandtimeBtn.Size = New System.Drawing.Size(91, 17)
+        Me.dateandtimeBtn.TabIndex = 5
+        Me.dateandtimeBtn.Text = "Date and time"
+        Me.dateandtimeBtn.UseVisualStyleBackColor = True
+        '
+        'fulldateBtn
+        '
+        Me.fulldateBtn.AutoSize = True
+        Me.fulldateBtn.Location = New System.Drawing.Point(3, 72)
+        Me.fulldateBtn.Name = "fulldateBtn"
+        Me.fulldateBtn.Size = New System.Drawing.Size(65, 17)
+        Me.fulldateBtn.TabIndex = 4
+        Me.fulldateBtn.Text = "Full date"
+        Me.fulldateBtn.UseVisualStyleBackColor = True
+        '
         'relativeBtn
         '
         Me.relativeBtn.AutoSize = True
@@ -70,6 +107,26 @@ Partial Class Form1
         Me.relativeBtn.TabIndex = 0
         Me.relativeBtn.Text = "Relative"
         Me.relativeBtn.UseVisualStyleBackColor = True
+        '
+        'shortdateBtn
+        '
+        Me.shortdateBtn.AutoSize = True
+        Me.shortdateBtn.Location = New System.Drawing.Point(3, 49)
+        Me.shortdateBtn.Name = "shortdateBtn"
+        Me.shortdateBtn.Size = New System.Drawing.Size(74, 17)
+        Me.shortdateBtn.TabIndex = 3
+        Me.shortdateBtn.Text = "Short date"
+        Me.shortdateBtn.UseVisualStyleBackColor = True
+        '
+        'fulltimeBtn
+        '
+        Me.fulltimeBtn.AutoSize = True
+        Me.fulltimeBtn.Location = New System.Drawing.Point(3, 26)
+        Me.fulltimeBtn.Name = "fulltimeBtn"
+        Me.fulltimeBtn.Size = New System.Drawing.Size(63, 17)
+        Me.fulltimeBtn.TabIndex = 2
+        Me.fulltimeBtn.Text = "Full time"
+        Me.fulltimeBtn.UseVisualStyleBackColor = True
         '
         'shorttimeBtn
         '
@@ -83,70 +140,14 @@ Partial Class Form1
         Me.shorttimeBtn.Text = "Short time"
         Me.shorttimeBtn.UseVisualStyleBackColor = True
         '
-        'fulltimeBtn
-        '
-        Me.fulltimeBtn.AutoSize = True
-        Me.fulltimeBtn.Location = New System.Drawing.Point(3, 26)
-        Me.fulltimeBtn.Name = "fulltimeBtn"
-        Me.fulltimeBtn.Size = New System.Drawing.Size(63, 17)
-        Me.fulltimeBtn.TabIndex = 2
-        Me.fulltimeBtn.Text = "Full time"
-        Me.fulltimeBtn.UseVisualStyleBackColor = True
-        '
-        'shortdateBtn
-        '
-        Me.shortdateBtn.AutoSize = True
-        Me.shortdateBtn.Location = New System.Drawing.Point(3, 49)
-        Me.shortdateBtn.Name = "shortdateBtn"
-        Me.shortdateBtn.Size = New System.Drawing.Size(74, 17)
-        Me.shortdateBtn.TabIndex = 3
-        Me.shortdateBtn.Text = "Short date"
-        Me.shortdateBtn.UseVisualStyleBackColor = True
-        '
-        'fulldateBtn
-        '
-        Me.fulldateBtn.AutoSize = True
-        Me.fulldateBtn.Location = New System.Drawing.Point(3, 72)
-        Me.fulldateBtn.Name = "fulldateBtn"
-        Me.fulldateBtn.Size = New System.Drawing.Size(65, 17)
-        Me.fulldateBtn.TabIndex = 4
-        Me.fulldateBtn.Text = "Full date"
-        Me.fulldateBtn.UseVisualStyleBackColor = True
-        '
-        'dateandtimeBtn
-        '
-        Me.dateandtimeBtn.AutoSize = True
-        Me.dateandtimeBtn.Location = New System.Drawing.Point(81, 3)
-        Me.dateandtimeBtn.Name = "dateandtimeBtn"
-        Me.dateandtimeBtn.Size = New System.Drawing.Size(91, 17)
-        Me.dateandtimeBtn.TabIndex = 5
-        Me.dateandtimeBtn.Text = "Date and time"
-        Me.dateandtimeBtn.UseVisualStyleBackColor = True
-        '
-        'daydateandtimeBtn
-        '
-        Me.daydateandtimeBtn.AutoSize = True
-        Me.daydateandtimeBtn.Location = New System.Drawing.Point(81, 26)
-        Me.daydateandtimeBtn.Name = "daydateandtimeBtn"
-        Me.daydateandtimeBtn.Size = New System.Drawing.Size(114, 17)
-        Me.daydateandtimeBtn.TabIndex = 6
-        Me.daydateandtimeBtn.Text = "Day, date and time"
-        Me.daydateandtimeBtn.UseVisualStyleBackColor = True
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(74, 69)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox1.TabIndex = 7
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(198, 113)
+        Me.ClientSize = New System.Drawing.Size(194, 109)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateTimePicker1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(214, 152)
